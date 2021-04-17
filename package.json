@@ -1,0 +1,27 @@
+{
+  "name": "book-shelf-api",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "start-prod": "NODE_ENV=production node ./src/server.js",
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.1.2",
+    "nanoid": "^3.1.22"
+  }
+}
